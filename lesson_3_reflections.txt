@@ -12,3 +12,7 @@ Forks - for copying a project completely and using it as a base for a new (unlin
 Clone - for copying (syncing) a project locally for development
 Branch - for trying out a new line of development on an existing project (new feature, core rewrite, different user attempts at the same thing), to be discarded or eventually
 merged back
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It allows you to see what is available online for others, and also allows you to pre-emptively fix conflicts
