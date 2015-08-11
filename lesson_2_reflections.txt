@@ -20,3 +20,14 @@ All the while, you can keep a branch that works fine, in case you need to demo
 How do the diagrams help you visualize the branch structure?
 
 The diagrams allow us to see what commits are reachable from others
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Combines the changes of the two branches to each other, making both concurrent. In the diagram, it represents the
+combining of the two branches
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros: it allows for simple merges to go through automatically, without requiring tedious manual checking for simple things like adding multiple lines.
+
+Cons: maybe some additions will overlap with other people's additions and gits auto merging won't be able to recognize it. (i.e. the same feature implemented two different ways, with different function names)
