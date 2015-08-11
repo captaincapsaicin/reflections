@@ -24,3 +24,10 @@ on the same project (often we have functionally identical solutions, but differe
 be exact, but makes bugs harder to track in other people's code. Is anything easier? There's no overhead to learning git, things aren't
 necessarily public if you don't want... Can people ssh to your computer and get your full git history? That would be a good workaround to
 having to push and pull from an online source, while keeping version control.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+making changes and working in a separate branch allows you to have total control over the codebase while you work on a new feature, and not
+have the rug swept out from under you. Making the person building the new feature, or editing an old one or whatever responsible for compatibility
+with changes on the master makes sense as well, as they know what incompatibilities will break their feature or others. Also doing it on another branch
+gives other users a chance to review your changes before it gets merged to master (and get pushed to production, for example)
