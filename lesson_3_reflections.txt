@@ -16,3 +16,11 @@ merged back
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 It allows you to see what is available online for others, and also allows you to pre-emptively fix conflicts
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Well, in the past I've used email to show portions of code. This is much harder to streamline changes that are general to both people working
+on the same project (often we have functionally identical solutions, but different code). Good for courses where collaboration can't
+be exact, but makes bugs harder to track in other people's code. Is anything easier? There's no overhead to learning git, things aren't
+necessarily public if you don't want... Can people ssh to your computer and get your full git history? That would be a good workaround to
+having to push and pull from an online source, while keeping version control.
