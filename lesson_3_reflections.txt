@@ -5,3 +5,10 @@ When you're collaborating with many people who all need access remotely
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Changes in the remote repository might break what you're working on, you might need to resolve conflicts at a later time.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks - for copying a project completely and using it as a base for a new (unlinked) project
+Clone - for copying (syncing) a project locally for development
+Branch - for trying out a new line of development on an existing project (new feature, core rewrite, different user attempts at the same thing), to be discarded or eventually
+merged back
